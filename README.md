@@ -6,11 +6,14 @@
 1. Do interfacing to the Arduino and MQ135 sensor
 ![Screenshot](docs/interfacing.png)
 2. Using .ino file in this repo, compile and upload to the arduino UNO.
+    2.1 Don't forget to install [MQ135.h](https://github.com/Phoenix1747/MQ135) library from Arduino IDE Library Manager
 3. Manually adjust come configs like desired COM Port, MySQL DB Config, etc.
 4. Execute .sql files from the ddl folder to init the db and its table.
 5. Run the service for getting data from the sensor by runnning command below
+
 `python3 python_web/air_quality.py`
 6. Open new terminal window, run the flask web server to serve the web by runnning command below
+
 `python3 python_web/main.py`
 
 ## Demo
