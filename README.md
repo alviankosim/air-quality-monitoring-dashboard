@@ -12,6 +12,7 @@
 5. Run the service for getting data from the sensor by runnning command below
 
 `python3 python_web/air_quality.py`
+
 6. Open new terminal window, run the flask web server to serve the web by runnning command below
 
 `python3 python_web/main.py`
